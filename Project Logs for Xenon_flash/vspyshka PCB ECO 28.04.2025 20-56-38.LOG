@@ -1,0 +1,68 @@
+Added Component: Designator=C?(0603C)
+Add component (AddParameter): Name = "Capacity (nF)"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Library Path2"; Value = "Schematic\Capacitor.SchLib"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufactore"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notice"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "Capacitor_1u_10_50V_X7R_0603C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rate"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shop"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0,1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1 мк"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage (V)"; Value = "50"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAP_EEVFK1V102M)
+Add component (AddParameter): Name = "Capacity (uF)"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufactore"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notice"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "EEVFK1V102M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rate"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shop"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "SMD Aluminum"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1000 мк"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage (V)"; Value = "35"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found uSOP10
+Added Component: Designator=DA?(*DIP762W50P254L460H450Q4)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/LTV816/Lite-On/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "LTV354T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/LTV816/Lite-On/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=T?(M20VN)
+Added Component: Designator=VD?(SMC)
+Add component (AddParameter): Name = "Part Number"; Value = "SM15T33A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power (W)"; Value = "1500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "30 В"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage nominal (V)"; Value = "30"; VariantName = "[No Variations]"
+Added Component: Designator=VT?(DPAK)
+Add component (AddParameter): Name = "Part Number"; Value = "50N06"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Напряжение С-И/К-Э"; Value = "60 В"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ток макс#"; Value = "50 А"; VariantName = "[No Variations]"
+Added Component: Designator=XP?(XT30PW-M)
+Add component (AddParameter): Name = "Part Number"; Value = "XT30PW-M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value1"; Value = "12-25.2В"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value2"; Value = "Общий"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value3"; Value = "Корпус"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+15 Pin=C?-1
+Added Pin To Net: NetName=+15 Pin=C?-2
+Added Pin To Net: NetName=+15 Pin=DA?-1
+Added Pin To Net: NetName=+15 Pin=XP?-P
+Added Net: Name=+15
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=VD?-1
+Added Pin To Net: NetName=GND Pin=VT?-3
+Added Pin To Net: NetName=GND Pin=XP?-0
+Added Pin To Net: NetName=GND Pin=XP?-0
+Added Pin To Net: NetName=GND Pin=XP?-N
+Added Net: Name=GND
+Added Pin To Net: NetName=NetDA?_8 Pin=VT?-1
+Added Net: Name=NetDA?_8
+Added Pin To Net: NetName=NetT?_2 Pin=VD?-2
+Added Pin To Net: NetName=NetT?_2 Pin=VT?-2
+Added Net: Name=NetT?_2
+Added Class: Name=dcdc300v
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1
