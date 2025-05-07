@@ -1,0 +1,7 @@
+Change Component Footprint: Designator=DA2 Old Footprint=*DIP762W50P254L460H450Q4 New Footprint=SOP4-2_54
+Added Component: Designator=T1(M20VN)
+Add Pin To Net: Unknown Pin: Pin T1-1
+Add Pin To Net: Unknown Pin: Pin T1-2
+Add Pin To Net: Unknown Pin: Pin T1-3
+Add Pin To Net: Unknown Pin: Pin T1-4
+Add Class Member: Failed to add class member : Component T1 M20VN

@@ -1,0 +1,27 @@
+Removed Pin From Net: NetName=NetC6_2 Pin=U1-1
+Removed Pin From Net: NetName=NetC6_1 Pin=U1-2
+Removed Pin From Net: NetName=GND_HV Pin=U1-3
+Removed Member From Class: ClassName=dcdc300v Member=U1
+Change Component Designator: OldDesignator=VD? NewDesignator=VD4
+Added Component: Designator=DA2(*DIP762W50P254L460H450Q4)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/LTV816/Lite-On/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "LTV354T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/LTV816/Lite-On/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=DA3(SOT23-3)
+Add component (AddParameter): Name = "Part Number"; Value = "UMW TL431 0.5%"; VariantName = "[No Variations]"
+Added Component: Designator=T1(M20VN)
+Added Pin To Net: NetName=NetDA2_1 Pin=DA2-1
+Added Pin To Net: NetName=NetC6_1 Pin=DA2-2
+Added Pin To Net: NetName=NetC5_2 Pin=DA2-3
+Added Pin To Net: NetName=+15 Pin=DA2-4
+Added Pin To Net: NetName=NetC6_2 Pin=DA3-1
+Added Pin To Net: NetName=NetC6_1 Pin=DA3-2
+Added Pin To Net: NetName=GND_HV Pin=DA3-3
+Add Pin To Net: Unknown Pin: Pin T1-1
+Add Pin To Net: Unknown Pin: Pin T1-2
+Add Pin To Net: Unknown Pin: Pin T1-3
+Add Pin To Net: Unknown Pin: Pin T1-4
+Added Member To Class: ClassName=dcdc300v Member=Component DA2 LTV354T
+Added Member To Class: ClassName=dcdc300v Member=Component DA3 UMW TL431 0.5%
+Add Class Member: Failed to add class member : Component T1 M20VN

@@ -1,0 +1,25 @@
+Added Component: Designator=C7(8x12_radial)
+Add component (AddParameter): Name = "Capacity (uF)"; Value = "3,3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufactore"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notice"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "JRB2G3R3M03500800120000B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rate"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shop"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Aluminum"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "3.3 לך"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage (V)"; Value = "400"; VariantName = "[No Variations]"
+Added Component: Designator=T?(M20VN)
+Added Pin To Net: NetName=+300 Pin=C7-1
+Added Pin To Net: NetName=NetC7_2 Pin=C7-2
+Add Pin To Net: Unknown Pin: Pin T?-1
+Add Pin To Net: Unknown Pin: Pin T?-4
+Added Pin To Net: NetName=NetT?_2 Pin=VD1-2
+Added Pin To Net: NetName=NetT?_2 Pin=VT1-2
+Added Net: Name=NetT?_2
+Added Pin To Net: NetName=NetT?_3 Pin=VD2-1
+Added Net: Name=NetT?_3
+Added Member To Class: ClassName=dcdc300v Member=Component C7 Capacitor
+Add Class Member: Failed to add class member : Component T? M20VN

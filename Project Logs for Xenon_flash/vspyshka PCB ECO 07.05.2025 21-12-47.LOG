@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=GND Pin=XP1-0
+Removed Pin From Net: NetName=GND Pin=XP1-0
+Removed Pin From Net: NetName=GND Pin=XP1-N
+Removed Pin From Net: NetName=+15 Pin=XP1-P
+Removed Member From Class: ClassName=dcdc300v Member=XP1
+Added Component: Designator=T1(M20VN)
+Added Component: Designator=X1(XT30UPB-M)
+Add component (AddParameter): Name = "Part Number"; Value = "XT30UPB-M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value1"; Value = "12-25.2ֲ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value2"; Value = "־בשטי"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin T1-1
+Add Pin To Net: Unknown Pin: Pin T1-2
+Add Pin To Net: Unknown Pin: Pin T1-3
+Add Pin To Net: Unknown Pin: Pin T1-4
+Added Pin To Net: NetName=GND Pin=X1-N
+Added Pin To Net: NetName=+15 Pin=X1-P
+Add Class Member: Failed to add class member : Component T1 M20VN
+Added Member To Class: ClassName=dcdc300v Member=Component X1 XT30UPB-M
