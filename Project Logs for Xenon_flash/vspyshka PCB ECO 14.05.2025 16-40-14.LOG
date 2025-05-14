@@ -1,0 +1,57 @@
+Added Component: Designator=DA?(SOP4-2_54)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/LTV816/Lite-On/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "LTV354T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/LTV816/Lite-On/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=DD?(SC-70-5)
+Add component (AddParameter): Name = "Part Number"; Value = "SN74LVC1G14DCKR"; VariantName = "[No Variations]"
+Added Component: Designator=DD?(SC-70-5)
+Add component (AddParameter): Name = "Arrow_Purchase_URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "SN74LVC1G17DCKR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT-SC70-5 Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "SN74LVC1G17DCKR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/SN74LVC1G17DCKR/Texas%20Instruments/view-part/294145/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Texas_Instruments-Purchase-URL"; Value = "https://snapeda.com/shop?store=Texas+Instruments&id=294145"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=DD?(SOP65P400X110-8N)
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/74LVC1G74DP,125/Nexperia/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Nexperia USA Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "74LVC1G74DP,125"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TSSOP-8 Nexperia USA Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "74LVC1G74DP,125"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search?q=74LVC1G74DP,125&ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/74LVC1G74DP,125/Nexperia/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R?(0603R)
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufactore"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notice"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "Resistor_10k_1_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rate"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shop"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 к"; VariantName = "[No Variations]"
+Added Component: Designator=T1(M20VN)
+Added Component: Designator=VS?(DPAK)
+Add component (AddParameter): Name = "Part Number"; Value = "TS820-600B-TR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Напряжение"; Value = "600 В"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ток макс#"; Value = "8 А"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R?-1
+Add Pin To Net: Unknown Pin: Pin T1-1
+Add Pin To Net: Unknown Pin: Pin T1-2
+Add Pin To Net: Unknown Pin: Pin T1-3
+Add Pin To Net: Unknown Pin: Pin T1-4
+Added Pin To Net: NetName=GND_CAM Pin=DA?-2
+Added Net: Name=GND_CAM
+Added Pin To Net: NetName=NetDA?_3 Pin=DA?-3
+Added Pin To Net: NetName=NetDA?_3 Pin=R?-2
+Added Pin To Net: NetName=NetDA?_3 Pin=VS?-3
+Added Net: Name=NetDA?_3
+Added Class: Name=Synchronizer
+Add Class Member: Failed to add class member : Component T1 M20VN
+Added Rule: Name=Schematic Supply Nets_4

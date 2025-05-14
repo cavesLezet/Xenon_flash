@@ -1,0 +1,23 @@
+Add Component: Footprint Not Found EE16_transformer
+Added Component: Designator=T?(M20VN)
+Add component (AddParameter): Name = "Current (A)"; Value = "15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Inductance (?H)"; Value = "1,2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M20VN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1.2 לך"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+15 Pin=T?-1
+Added Pin To Net: NetName=NetC9_2 Pin=T?-2
+Added Pin To Net: NetName=NetC7_2 Pin=T?-4
+Add Pin To Net: Unknown Pin: Pin T?-10
+Added Pin To Net: NetName=NetT?_2 Pin=T?-2
+Added Pin To Net: NetName=NetT?_2 Pin=VD1-2
+Added Pin To Net: NetName=NetT?_2 Pin=VT1-2
+Added Net: Name=NetT?_2
+Added Pin To Net: NetName=NetT?_3 Pin=T?-3
+Added Pin To Net: NetName=NetT?_3 Pin=VD2-1
+Added Net: Name=NetT?_3
+Added Pin To Net: NetName=NetT?_5 Pin=VS1-2
+Added Net: Name=NetT?_5
+Added Pin To Net: NetName=NetT?_8 Pin=XP2-2
+Added Net: Name=NetT?_8
+Added Member To Class: ClassName=dcdc300v Member=Component T? ּ20ֲֽ 20ץ10ץ5
+Added Member To Class: ClassName=Synchronizer Member=Component T? HV_trans

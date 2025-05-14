@@ -1,0 +1,184 @@
+Removed Pin From Net: NetName=GND Pin=R?-1
+Removed Member From Class: ClassName=Synchronizer Member=DD?
+Removed Member From Class: ClassName=Synchronizer Member=R?
+Change Component Designator: OldDesignator=DA? NewDesignator=DA4
+Change Component Designator: OldDesignator=DD? NewDesignator=DD1
+Change Component Designator: OldDesignator=VS? NewDesignator=VS1
+Added Component: Designator=C8(0603C)
+Add component (AddParameter): Name = "Capacity (nF)"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Library Path2"; Value = "Schematic\Capacitor.SchLib"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufactore"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notice"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "Capacitor_1u_10_50V_X7R_0603C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rate"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shop"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0,1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1 мк"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage (V)"; Value = "50"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found 1812C
+Added Component: Designator=D1(SOT223)
+Add component (AddParameter): Name = "Part Number"; Value = "LD1117S50CTR"; VariantName = "[No Variations]"
+Added Component: Designator=R12(0603R)
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufactore"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notice"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "Resistor_1.0k_1_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rate"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shop"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1,0 к"; VariantName = "[No Variations]"
+Added Component: Designator=R13(0603R)
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufactore"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notice"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "Resistor_180_1_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rate"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shop"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "180"; VariantName = "[No Variations]"
+Added Component: Designator=R14(0603R)
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufactore"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notice"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "Resistor_1.8k_1_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rate"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shop"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1,8 к"; VariantName = "[No Variations]"
+Added Component: Designator=R15(0603R)
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufactore"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notice"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "Resistor_100_1_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rate"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shop"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R16(0603R)
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufactore"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notice"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "Resistor_39k_1_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rate"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shop"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "39 к"; VariantName = "[No Variations]"
+Added Component: Designator=R17(0603R)
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufactore"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notice"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "Resistor_510k_1_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rate"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shop"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "510 к"; VariantName = "[No Variations]"
+Added Component: Designator=T1(M20VN)
+Added Component: Designator=T2(EE16_transformer)
+Added Component: Designator=VD5(mini_MELF_3.5mm)
+Add component (AddParameter): Name = "Accuracy"; Value = "0,02"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current nominal (mA)"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "BZV55-B12"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power (W)"; Value = "0.5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "12 В"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage nominal (V)"; Value = "12"; VariantName = "[No Variations]"
+Added Component: Designator=XP1(Molex_430450218)
+Add component (AddParameter): Name = "Part Number"; Value = "Molex_430450218"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value1"; Value = "Синхронизация"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value2"; Value = "Общий"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value3"; Value = "Корпус"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value4"; Value = "Корпус"; VariantName = "[No Variations]"
+Added Component: Designator=XP2(MOLEX_430450418)
+Add component (AddParameter): Name = "Part Number"; Value = "Molex_430450418"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value1"; Value = "300 В"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value2"; Value = "Поджигающий"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value3"; Value = "GND_HV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value4"; Value = "GND_HV"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND_HV Pin=C8-1
+Add Pin To Net: Unknown Pin: Pin C9-1
+Added Pin To Net: NetName=GND Pin=D1-1
+Added Pin To Net: NetName=+15 Pin=D1-3
+Added Pin To Net: NetName=GND Pin=DA4-2
+Added Pin To Net: NetName=GND Pin=DD1-1
+Added Pin To Net: NetName=GND Pin=DD1-3
+Added Pin To Net: NetName=GND_HV Pin=R15-1
+Added Pin To Net: NetName=+300 Pin=R16-2
+Added Pin To Net: NetName=+300 Pin=R17-2
+Add Pin To Net: Unknown Pin: Pin T1-1
+Add Pin To Net: Unknown Pin: Pin T1-2
+Add Pin To Net: Unknown Pin: Pin T1-3
+Add Pin To Net: Unknown Pin: Pin T1-4
+Add Pin To Net: Unknown Pin: Pin T2-10
+Added Pin To Net: NetName=GND_HV Pin=VD5-1
+Added Pin To Net: NetName=GND_HV Pin=VS1-1
+Added Pin To Net: NetName=GND Pin=XP1-0
+Added Pin To Net: NetName=GND Pin=XP1-0
+Added Pin To Net: NetName=GND Pin=XP1-2
+Added Pin To Net: NetName=GND_HV Pin=XP2-0
+Added Pin To Net: NetName=GND_HV Pin=XP2-0
+Added Pin To Net: NetName=+300 Pin=XP2-1
+Added Pin To Net: NetName=GND_HV Pin=XP2-3
+Added Pin To Net: NetName=GND_HV Pin=XP2-4
+Added Pin To Net: NetName=+5 Pin=D1-2
+Added Pin To Net: NetName=+5 Pin=D1-2
+Added Pin To Net: NetName=+5 Pin=DD1-5
+Added Pin To Net: NetName=+5 Pin=R12-2
+Added Net: Name=+5
+Added Pin To Net: NetName=NetC8_2 Pin=C8-2
+Added Pin To Net: NetName=NetC8_2 Pin=R14-2
+Added Pin To Net: NetName=NetC8_2 Pin=R16-1
+Added Pin To Net: NetName=NetC8_2 Pin=VD5-2
+Added Net: Name=NetC8_2
+Added Pin To Net: NetName=NetC9_2 Pin=R17-1
+Added Net: Name=NetC9_2
+Added Pin To Net: NetName=NetDA4_1 Pin=DA4-1
+Added Pin To Net: NetName=NetDA4_1 Pin=R13-2
+Added Net: Name=NetDA4_1
+Added Pin To Net: NetName=NetDA4_3 Pin=DA4-3
+Added Pin To Net: NetName=NetDA4_3 Pin=R15-2
+Added Pin To Net: NetName=NetDA4_3 Pin=VS1-3
+Added Net: Name=NetDA4_3
+Added Pin To Net: NetName=NetDA4_4 Pin=DA4-4
+Added Pin To Net: NetName=NetDA4_4 Pin=R14-1
+Added Net: Name=NetDA4_4
+Added Pin To Net: NetName=NetDD1_2 Pin=DD1-2
+Added Pin To Net: NetName=NetDD1_2 Pin=R12-1
+Added Pin To Net: NetName=NetDD1_2 Pin=XP1-1
+Added Net: Name=NetDD1_2
+Added Pin To Net: NetName=NetDD1_4 Pin=DD1-4
+Added Pin To Net: NetName=NetDD1_4 Pin=R13-1
+Added Net: Name=NetDD1_4
+Added Pin To Net: NetName=NetT2_5 Pin=VS1-2
+Added Net: Name=NetT2_5
+Added Pin To Net: NetName=NetT2_8 Pin=XP2-2
+Added Net: Name=NetT2_8
+Added Member To Class: ClassName=Synchronizer Member=Component C8 Capacitor
+Add Class Member: Failed to add class member : Component C9 Capacitor
+Added Member To Class: ClassName=Synchronizer Member=Component D1 LD1117S50CTR
+Added Member To Class: ClassName=Synchronizer Member=Component DD1 SN74LVC1G14DCKR
+Added Member To Class: ClassName=Synchronizer Member=Component R12 Resistor
+Added Member To Class: ClassName=Synchronizer Member=Component R13 Resistor
+Added Member To Class: ClassName=Synchronizer Member=Component R14 Resistor
+Added Member To Class: ClassName=Synchronizer Member=Component R15 Resistor
+Added Member To Class: ClassName=Synchronizer Member=Component R16 Resistor
+Added Member To Class: ClassName=Synchronizer Member=Component R17 Resistor
+Add Class Member: Failed to add class member : Component T1 M20VN
+Add Class Member: Failed to add class member : Component T2 HV_trans
+Added Member To Class: ClassName=Synchronizer Member=Component VD5 BZV55-B12
+Added Member To Class: ClassName=Synchronizer Member=Component XP1 430450218
+Added Member To Class: ClassName=Synchronizer Member=Component XP2 430450418
+Added Rule: Name=Schematic Supply Nets_5

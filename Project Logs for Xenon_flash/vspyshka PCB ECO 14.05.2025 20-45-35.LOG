@@ -1,0 +1,8 @@
+Added Component: Designator=T?(EE16_transformer)
+Add component (AddParameter): Name = "Current (A)"; Value = "10000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "HV_trans"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC9_2 Pin=T?-2
+Added Pin To Net: NetName=NetT?_5 Pin=T?-5
+Added Pin To Net: NetName=NetT?_8 Pin=T?-8
+Added Pin To Net: NetName=GND_HV Pin=T?-10

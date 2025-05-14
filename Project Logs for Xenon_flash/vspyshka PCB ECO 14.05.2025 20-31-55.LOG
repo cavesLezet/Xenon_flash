@@ -1,0 +1,16 @@
+Add Component: Footprint Not Found 1812C
+Added Component: Designator=T1(M20VN)
+Added Component: Designator=T2(EE16_transformer)
+Add Pin To Net: Unknown Pin: Pin C9-1
+Add Pin To Net: Unknown Pin: Pin C9-2
+Add Pin To Net: Unknown Pin: Pin T1-1
+Add Pin To Net: Unknown Pin: Pin T1-2
+Add Pin To Net: Unknown Pin: Pin T1-3
+Add Pin To Net: Unknown Pin: Pin T1-4
+Add Pin To Net: Unknown Pin: Pin T2-2
+Add Pin To Net: Unknown Pin: Pin T2-5
+Add Pin To Net: Unknown Pin: Pin T2-8
+Add Pin To Net: Unknown Pin: Pin T2-10
+Add Class Member: Failed to add class member : Component C9 Capacitor
+Add Class Member: Failed to add class member : Component T1 M20VN
+Add Class Member: Failed to add class member : Component T2 HV_trans
