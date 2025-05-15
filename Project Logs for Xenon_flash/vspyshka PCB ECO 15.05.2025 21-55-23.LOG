@@ -1,0 +1,21 @@
+Added Component: Designator=XP?(PBS2_8.5)
+Add component (AddParameter): Name = "Datasheet"; Value = "https://static.chipdip.ru/lib/986/DOC012986355.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "PBS-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value1"; Value = "+15ֲ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value2"; Value = "־בשטי"; VariantName = "[No Variations]"
+Added Component: Designator=XP?(PBS4_8.5)
+Add component (AddParameter): Name = "Datasheet"; Value = "https://static.chipdip.ru/lib/986/DOC012986355.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "PBS-4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value1"; Value = "+300ֲ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value2"; Value = "+300ֲ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value3"; Value = "GND_HV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value4"; Value = "GND_HV"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+15 Pin=XP?-1
+Added Pin To Net: NetName=+300 Pin=XP?-1
+Added Pin To Net: NetName=+300 Pin=XP?-2
+Added Pin To Net: NetName=GND Pin=XP?-2
+Added Pin To Net: NetName=GND_HV Pin=XP?-3
+Added Pin To Net: NetName=GND_HV Pin=XP?-4
+Added Member To Class: ClassName=dcdc300v Member=Component T? ּ20ֲֽ 20ץ10ץ5
+Added Member To Class: ClassName=dcdc300v Member=Component XP? PBS-2
+Added Member To Class: ClassName=dcdc300v Member=Component XP? PBS-4
