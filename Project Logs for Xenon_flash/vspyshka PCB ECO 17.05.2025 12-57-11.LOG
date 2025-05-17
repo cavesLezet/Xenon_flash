@@ -1,0 +1,6 @@
+Added Component: Designator=VD?(SMC)
+Add component (AddParameter): Name = "Current (A)"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "SK810"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage nominal (V)"; Value = "100"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=dcdc300v Member=Component VD? SK810
+Added Member To Class: ClassName=dcdc300v Member=Component XP? PBS-4
