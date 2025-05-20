@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=GND Pin=XP2-0
+Removed Pin From Net: NetName=GND Pin=XP2-0
+Change Component Footprint: Designator=XP2 Old Footprint=Molex_430450218 New Footprint=PLS2
+Change Component Comment : Designator=XP2 Old Comment=430450218 New Comment=PLS-2
+Change component parameters: Designator = "XP2" ("XP2"); Footprint = "Molex_430450218"; UniqueID = "\NTTWAKJS" ("\NTTWAKJS")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "PLS-2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value1"; Value = "Синхронизация"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value2"; Value = "Общий"; VariantName = "[No Variations]"

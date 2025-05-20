@@ -1,0 +1,11 @@
+Change component parameters: Designator = "XP4" ("XP4"); Footprint = "9774030151"; UniqueID = "\OUASWOIL" ("\OUASWOIL")
+Change component parameters (AddParameter): Name = "Datasheet"; Value = "https://aliexpress.ru/item/1005005620368789.html?sku_id=12000033777723210&srcSns=sns_More&businessType=ProductDetail&spreadType=socialShare&tt=MG&utm_medium=sharing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "SMT_spacer_nut"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value1"; Value = "GND_HV"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=Synchronizer Member=Component C5 Capacitor_polar
+Added Member To Class: ClassName=Synchronizer Member=Component C6 Capacitor
+Added Member To Class: ClassName=Synchronizer Member=Component R2 Resistor
+Added Member To Class: ClassName=Synchronizer Member=Component R4 Resistor
+Added Member To Class: ClassName=Synchronizer Member=Component R5 Resistor
+Added Member To Class: ClassName=Synchronizer Member=Component XP1 CWF-2
+Added Member To Class: ClassName=Synchronizer Member=Component XP4 SMT spacer

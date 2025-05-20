@@ -1,0 +1,4 @@
+Record=DiagramHierarchy|SourceDocument=MultiBoardSch.MbsDoc|Kind=Multi-board Schematic Module|Designator=1|Source=..\Xenon_flash.PrjPcb
+Record=SubProject|SourceDocument=MultiBoardSch.MbsDoc|ProjectPath=..\Xenon_flash.PrjPcb
+Record=DiagramHierarchy|SourceDocument=MultiBoardSch.MbsDoc|Kind=Multi-board Schematic Module|Designator=2|Source=..\Xenon_flash_synchronizer\Xenon_flash_synchronizer.PrjPcb
+Record=SubProject|SourceDocument=MultiBoardSch.MbsDoc|ProjectPath=..\Xenon_flash_synchronizer\Xenon_flash_synchronizer.PrjPcb

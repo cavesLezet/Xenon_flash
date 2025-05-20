@@ -1,0 +1,48 @@
+Change component parameters: Designator = "XP1" ("XP1"); Footprint = "MOLEX_430450418"; UniqueID = "\KECBBGFR" ("\KECBBGFR")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "Molex_430450418"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value1"; Value = "+300В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value2"; Value = "Поджиг, 13кВ"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value3"; Value = "GND_HV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value4"; Value = "GND_HV"; VariantName = "[No Variations]"
+Change component parameters: Designator = "XP2" ("XP2"); Footprint = "Molex_430450218"; UniqueID = "\PPBQHOMI" ("\PPBQHOMI")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "Molex_430450218"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value1"; Value = "Синхронизация"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value2"; Value = "Общий"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value3"; Value = "Корпус"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value4"; Value = "Корпус"; VariantName = "[No Variations]"
+Change component parameters: Designator = "XP3" ("XP3"); Footprint = "PLH4_type18"; UniqueID = "\DNQRBPGS" ("\DNQRBPGS")
+Change component parameters (AddParameter): Name = "Datasheet"; Value = "https://static.chipdip.ru/lib/530/DOC059530234.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "PLH-4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value1"; Value = "+300В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value2"; Value = "+300В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value3"; Value = "GND_HV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value4"; Value = "GND_HV"; VariantName = "[No Variations]"
+Change component parameters: Designator = "XP4" ("XP4"); Footprint = "PLH2_type18"; UniqueID = "\VWGOYPYV" ("\VWGOYPYV")
+Change component parameters (AddParameter): Name = "Datasheet"; Value = "https://static.chipdip.ru/lib/530/DOC059530234.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "PLH-2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value1"; Value = "+15В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value2"; Value = "Общий"; VariantName = "[No Variations]"
+Added Component: Designator=C?(42x103_radial)
+Add component (AddParameter): Name = "Capacity (uF)"; Value = "2700"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufactore"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notice"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "JCCON 2700uF 400V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rate"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shop"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Aluminum"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2700 мк"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage (V)"; Value = "400"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+300 Pin=C?-1
+Added Pin To Net: NetName=+300 Pin=C?-1
+Added Pin To Net: NetName=+300 Pin=C?-1
+Added Pin To Net: NetName=GND_HV Pin=C?-2
+Added Member To Class: ClassName=Synchronizer Member=Component C1 Capacitor
+Added Member To Class: ClassName=Synchronizer Member=Component C2 Capacitor
+Added Member To Class: ClassName=Synchronizer Member=Component C? Capacitor_polar

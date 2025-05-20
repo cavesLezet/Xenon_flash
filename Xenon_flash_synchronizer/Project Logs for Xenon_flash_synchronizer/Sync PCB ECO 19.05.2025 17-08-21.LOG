@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=NetDD1_2 Pin=XP2-1
+Removed Pin From Net: NetName=GND Pin=XP2-2
+Removed Member From Class: ClassName=Synchronizer Member=XP2
+Added Component: Designator=XP?(CWF-2)
+Add component (AddParameter): Name = "Datasheet"; Value = "https://static.chipdip.ru/lib/413/DOC001413777.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CWF-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value1"; Value = "Синхронизация"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value2"; Value = "Общий"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetDD1_2 Pin=XP?-1
+Added Pin To Net: NetName=GND Pin=XP?-2
+Added Member To Class: ClassName=Synchronizer Member=Component XP? CWF-2

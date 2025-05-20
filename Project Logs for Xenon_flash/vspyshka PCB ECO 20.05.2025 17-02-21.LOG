@@ -1,0 +1,26 @@
+Change Component Designator: OldDesignator=XP2 NewDesignator=XP3
+Change component parameters: Designator = "X1" ("X1"); Footprint = "XT30UPB-M"; UniqueID = "\RSWQRQZZ" ("\RSWQRQZZ")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "XT30UPB-M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value1"; Value = "12-25.2ֲ"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value2"; Value = "־בשטי"; VariantName = "[No Variations]"
+Change component parameters: Designator = "XP1" ("XP1"); Footprint = "PBS2_8.5"; UniqueID = "\HIPPAQWH" ("\HIPPAQWH")
+Change component parameters (AddParameter): Name = "Datasheet"; Value = "https://static.chipdip.ru/lib/986/DOC012986355.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "PBS-2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value1"; Value = "+15ֲ"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value2"; Value = "־בשטי"; VariantName = "[No Variations]"
+Change component parameters: Designator = "XP2" ("XP2"); Footprint = "PBS4_8.5"; UniqueID = "\EBHGDUHH" ("\EBHGDUHH")
+Change component parameters (AddParameter): Name = "Datasheet"; Value = "https://static.chipdip.ru/lib/986/DOC012986355.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "PBS-4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value1"; Value = "+300ֲ"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value2"; Value = "+300ֲ"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value3"; Value = "GND_HV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value4"; Value = "GND_HV"; VariantName = "[No Variations]"
+Added Component: Designator=XP2(9774030151)
+Add component (AddParameter): Name = "Datasheet"; Value = "https://aliexpress.ru/item/1005005620368789.html?sku_id=12000033777723210&srcSns=sns_More&businessType=ProductDetail&spreadType=socialShare&tt=MG&utm_medium=sharing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "SMT_spacer_nut"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value1"; Value = "{Value1}"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND_HV Pin=XP2-1
+Added Member To Class: ClassName=dcdc300v Member=Component XP3 PBS-4

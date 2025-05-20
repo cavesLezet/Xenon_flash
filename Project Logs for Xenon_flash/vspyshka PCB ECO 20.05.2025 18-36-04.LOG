@@ -1,0 +1,5 @@
+Added Component: Designator=XP2(spacer_m2.5_h16)
+Add component (AddParameter): Name = "Part Number"; Value = "spacer_m2.5_h16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value1"; Value = "GND_HV"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND_HV Pin=XP2-1
+Added Member To Class: ClassName=dcdc300v Member=Component XP2 Spacer m2.5 h16

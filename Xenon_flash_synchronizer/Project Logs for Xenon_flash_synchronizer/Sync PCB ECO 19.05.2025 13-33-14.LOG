@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=GND_HV Pin=XP1-0
+Removed Pin From Net: NetName=GND_HV Pin=XP1-0
+Removed Pin From Net: NetName=+300 Pin=XP1-1
+Removed Pin From Net: NetName=NetT1_8 Pin=XP1-2
+Removed Pin From Net: NetName=GND_HV Pin=XP1-4
+Change Component Footprint: Designator=XP1 Old Footprint=MOLEX_430450418 New Footprint=MPW-3
+Change Component Comment : Designator=XP1 Old Comment=430450418 New Comment=MPW-3
+Change component parameters: Designator = "XP1" ("XP1"); Footprint = "MOLEX_430450418"; UniqueID = "\AVTRMWMB" ("\AVTRMWMB")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "MPW-3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value1"; Value = "Поджиг, 13кВ"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value2"; Value = "+300В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value3"; Value = "GND_HV"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetT1_8 Pin=XP1-1
+Added Pin To Net: NetName=+300 Pin=XP1-2
