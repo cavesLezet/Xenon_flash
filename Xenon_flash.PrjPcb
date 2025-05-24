@@ -23,7 +23,7 @@ DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
 NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
-AutoSheetNumbering=1
+AutoSheetNumbering=0
 AutoCrossReferences=1
 NewIndexingOfSheetSymbols=1
 PushECOToAnnotationFile=1
@@ -86,6 +86,18 @@ DocumentUniqueId=LLOJSKXS
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Xenon_flash\Design Rule Check - vspyshka.html
 DItemRevisionGUID=
+
+[Parameter1]
+Name=Date
+Value=24.05.25
+
+[Parameter2]
+Name=CheckedBy
+Value=
+
+[Parameter3]
+Name=DrawbBy
+Value=Карманов Семён
 
 [Configuration1]
 Name=Sources
