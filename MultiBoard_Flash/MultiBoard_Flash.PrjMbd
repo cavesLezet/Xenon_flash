@@ -146,6 +146,30 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Parameter1]
+Name=Version
+Value=01
+
+[Parameter2]
+Name=Title
+Value=Фотовспышка
+
+[Parameter3]
+Name=Release_Date
+Value=31.05.25
+
+[Parameter4]
+Name=DrawnBy
+Value=Карманов С.
+
+[Parameter5]
+Name=Decimal_Number_Schematic
+Value=ГИДР.123456.001
+
+[Parameter6]
+Name=CheckedBy
+Value=
+
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
