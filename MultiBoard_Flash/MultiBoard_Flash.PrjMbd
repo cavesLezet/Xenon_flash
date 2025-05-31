@@ -103,6 +103,8 @@ VaultGUID=
 ManagedProjectGUID=
 RevisionGUID=
 ProjectName=Xenon_flash.PrjPcb
+VaultURL=
+VaultName=
 
 [Document4]
 DocumentPath=..\Xenon_flash_synchronizer\Xenon_flash_synchronizer.PrjPcb
@@ -124,6 +126,25 @@ VaultGUID=
 ManagedProjectGUID=
 RevisionGUID=
 ProjectName=Xenon_flash_synchronizer.PrjPcb
+VaultURL=
+VaultName=
+
+[Document5]
+DocumentPath=сборка_плат.MbDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [OutputGroup1]
 Name=Netlist Outputs
