@@ -228,6 +228,7 @@ DocumentReferenceClass1=DocumentReference
 OutputJobFileName1=HydroJob.OutJob
 ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Assembly
+LocalReleaseTarget==Decimal_Number_Shematic+'-'+Version+'.'+VariantName
 
 [Configuration4]
 Name=Assembly
