@@ -2,25 +2,15 @@
 FileName = Sync.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Layer
-      File : Sync.GBL
+Generating : Mechanical 4
+      File : Sync.GM4
 
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Mechanical 4
 
 
 Used DCodes :
-    D38
-    D39
-    D40
-    D41
-    D47
-    D50
-    D51
-    D52
-    D53
-    D54
+    D11
+    D12
 *************************************************************
 
 *************************************************************
@@ -33,7 +23,7 @@ Generating : Top Layer
 
 
 Used DCodes :
-    D11
+    D12
     D14
     D15
     D16
@@ -58,18 +48,21 @@ Used DCodes :
     D52
     D53
     D54
+    D55
 *************************************************************
 
 *************************************************************
-Generating : Bottom Overlay
-      File : Sync.GBO
+Generating : Bottom Paste
+      File : Sync.GBP
 
-    Adding Layer      : Bottom Overlay
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D10
-    D12
 *************************************************************
 
 *************************************************************
@@ -80,6 +73,29 @@ Generating : Keep-Out Layer
 
 
 Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : Sync.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
 *************************************************************
 
 *************************************************************
@@ -118,17 +134,15 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Paste
-      File : Sync.GBP
+Generating : Bottom Overlay
+      File : Sync.GBO
 
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Bottom Overlay
 
 
 Used DCodes :
+    D10
+    D11
 *************************************************************
 
 *************************************************************
@@ -146,22 +160,8 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 4
-      File : Sync.GM4
-
-    Adding Layer      : Mechanical 4
-
-
-Used DCodes :
-    D10
-    D11
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : Sync.GBS
-
-    Adding Layer      : Bottom Solder
+Generating : Bottom Layer
+      File : Sync.GBL
 
     Adding Layer      : Bottom Layer
 
@@ -173,11 +173,12 @@ Used DCodes :
     D39
     D40
     D41
-    D42
-    D43
-    D44
-    D45
-    D46
+    D48
+    D51
+    D52
+    D53
+    D54
+    D55
 *************************************************************
 
 *************************************************************

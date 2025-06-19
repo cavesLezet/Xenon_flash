@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: vspyshka.PcbDoc   31.05.2025  20:23:36
+NCDrill File Report For: vspyshka.PcbDoc   19.06.2025  20:09:43
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -7,7 +7,7 @@ ASCII RoundHoles File : vspyshka.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.4mm (16mil)                                             Round             102       PTH        457.66mm (18.02inch)
+T1      0.4mm (16mil)                                             Round             102       PTH        457.03mm (17.99inch)
 T2      0.5mm (20mil)                                             Round             2         PTH        15.00mm (0.59inch)
 T3      0.75mm (30mil)                                            Round             2         PTH        3.50mm (0.14inch)
 T4      1mm (39mil)                                               Round             6         PTH        58.70mm (2.31inch)
