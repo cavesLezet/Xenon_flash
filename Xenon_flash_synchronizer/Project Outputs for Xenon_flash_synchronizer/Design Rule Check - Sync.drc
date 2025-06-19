@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Public\Documents\Altium\Xenon_flash\Xenon_flash_synchronizer\Sync.PcbDoc
 Date     : 19.06.2025
-Time     : 18:10:37
+Time     : 20:51:02
 
 Processing Rule : Clearance Constraint (Gap=0.25mm) (All),(All)
 Rule Violations :0
@@ -21,7 +21,7 @@ Rule Violations :0
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.2mm) (Max=1.5mm) (Preferred=0.25mm) (All)
+Processing Rule : Width Constraint (Min=0.2mm) (Max=1.8mm) (Preferred=0.25mm) (All)
 Rule Violations :0
 
 Processing Rule : Routing Topology Rule(Topology=Shortest) (All)
@@ -36,15 +36,11 @@ Rule Violations :0
 Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
 Rule Violations :0
 
-Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
-   Violation between Minimum Solder Mask Sliver Constraint: (0.047mm < 0.254mm) Between Pad DD1-1(15.96mm,-5.15mm) on Top Layer And Pad DD1-2(15.96mm,-4.5mm) on Top Layer [Top Solder] Mask Sliver [0.047mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.047mm < 0.254mm) Between Pad DD1-2(15.96mm,-4.5mm) on Top Layer And Pad DD1-3(15.96mm,-3.85mm) on Top Layer [Top Solder] Mask Sliver [0.047mm]
-Rule Violations :2
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.15mm) (All),(All)
+Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=0.01mm) (IsPad),(All)
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.01mm) Between Arc (0mm,-5.25mm) on Bottom Overlay And Pad XP1-1(21.843mm,-9.308mm) on Multi-Layer [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.01mm) Between Pad C5-2(0mm,6mm) on Multi-Layer And Track (-1.6mm,1.85mm)(-1.6mm,17.95mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
-Rule Violations :2
+Rule Violations :0
 
 Processing Rule : Silk to Silk (Clearance=0.05mm) (All),(All)
 Rule Violations :0
@@ -56,6 +52,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=104mm) (Prefered=12.7mm) (All
 Rule Violations :0
 
 
-Violations Detected : 4
+Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
