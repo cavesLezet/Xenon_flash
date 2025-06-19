@@ -170,32 +170,32 @@ DocumentPath=Project Outputs for Xenon_flash\Design Rule Check - vspyshka.html
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Version
-Value=01
+Name=CheckedBy
+Value=
 
 [Parameter2]
-Name=Title
-Value=Преобразователь из 15В в 300В
+Name=Decimal_Number_PCB
+Value=ГИДР.123456.002
 
 [Parameter3]
-Name=Release_Date
-Value=31.05.25
+Name=Decimal_Number_Shematic
+Value=ГИДР.123456.001
 
 [Parameter4]
 Name=DrawnBy
 Value=Карманов С.
 
 [Parameter5]
-Name=Decimal_Number_Shematic
-Value=ГИДР.123456.001
+Name=Release_Date
+Value=31.05.25
 
 [Parameter6]
-Name=Decimal_Number_PCB
-Value=ГИДР.123456.002
+Name=Title
+Value=Преобразователь из 15В в 300В
 
 [Parameter7]
-Name=CheckedBy
-Value=
+Name=Version
+Value=01
 
 [Configuration1]
 Name=Sources
