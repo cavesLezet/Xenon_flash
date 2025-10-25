@@ -1,0 +1,14 @@
+* source TL431_OBR_SVYAZ'
+R_R1         N143181 +300  10k TC=0,0 
+R_R2         N143341 N143181  10k TC=0,0 
+R_R3         N14734 N143341  10k TC=0,0 
+R_R4         0 N14734  3.3k TC=0,0 
+R_R5         N14460 N14734  430k TC=0,0 
+R_R6         0 N14460  47k TC=0,0 
+R_R7         N14825 N14734  18k TC=0,0 
+R_R8         0 N14763  620 TC=0,0 
+R_R9         N14763 +15  36k TC=0,0 
+V_V1         +15 0 15Vdc
+V_V2         +300 0 300
+X_U1         N14825 N14869 +15 N14763 PS2501 PARAMS: REL_CTR=1
+X_U2         0 N14460 N14869 awbtl431
