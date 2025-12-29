@@ -94,7 +94,7 @@ PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 OutputType4=BOM_PartType
 OutputName4=Bill of Materials
 OutputCategory4=Report
-OutputDocumentPath4=[ActiveBOM Document]
+OutputDocumentPath4=
 OutputVariantName4=
 OutputEnabled4=1
 OutputEnabled4_OutputMedium1=0
