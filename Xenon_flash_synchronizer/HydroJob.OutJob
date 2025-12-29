@@ -15,13 +15,13 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=HydroJob.OutJob
+Name=Job Group
 Description=
-TargetOutputMedium=Mechanical models
+TargetOutputMedium=PDF3D
 VariantName=01
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=NPI649482 (HP LaserJet M1536dnf MFP)
+TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -94,7 +94,7 @@ PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 OutputType4=BOM_PartType
 OutputName4=Bill of Materials
 OutputCategory4=Report
-OutputDocumentPath4=Xenon_flash_synchronizer.BomDoc
+OutputDocumentPath4=[ActiveBOM Document]
 OutputVariantName4=
 OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
@@ -110,25 +110,25 @@ PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 Configuration4_Name1=ColumnNameFormat
 Configuration4_Item1=CaptionAsName
 Configuration4_Name2=General
-Configuration4_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration4_Item2=OpenExported=True|AddToProject=True|ReportBOMViolationsInMessages=True|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\shustrik\Documents\Altium\Eth_switch_1gbit\BOM ЕСКД.xls|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1346|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|BomSetName=
 Configuration4_Name3=GroupOrder
 Configuration4_Item3=
 Configuration4_Name4=SortOrder
-Configuration4_Item4=Description=Up|Designator=Up
+Configuration4_Item4=Line #=Up
 Configuration4_Name5=VisibleOrder
-Configuration4_Item5=Line #=52|Comment=135|Description=100|Designator=79|Quantity=64|Manufacturer 1=97|Manufacturer Part Number 1=161|Manufacturer Lifecycle 1=141|Supplier 1=71|Supplier Part Number 1=135|Supplier Unit Price 1=121|Supplier Subtotal 1=114
+Configuration4_Item5=Line #=52|Comment=135|Description=100|Designator=79|Quantity=64|Part Number=100|Footprint=100|Value=100|Tolerance=100|Voltage (V)=100
 Configuration4_Name6=VisibleOrder_Base
-Configuration4_Item6=Line #=52|Comment=135|Description=100|Designator=79|Quantity=64|Manufacturer 1=97|Manufacturer Part Number 1=161|Manufacturer Lifecycle 1=141|Supplier 1=71|Supplier Part Number 1=135|Supplier Unit Price 1=121|Supplier Subtotal 1=114
+Configuration4_Item6=Line #=52|Comment=135|Description=100|Designator=79|Quantity=64|Part Number=100|Footprint=100|Value=100|Tolerance=100|Voltage (V)=100
 Configuration4_Name7=VisibleOrder_Consolidated
 Configuration4_Item7=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|Manufacturer 1=97|Manufacturer Part Number 1=161|Manufacturer Lifecycle 1=141|Supplier 1=71|Supplier Part Number 1=135|Supplier Unit Price 1=121|Supplier Subtotal 1=114|Quantity@01=100|Price@01=100
 Configuration4_Name8=VisibleOrder_Flat
-Configuration4_Item8=Line #=100|Comment=100|Description=100|Designator=100|Manufacturer 1=97|Manufacturer Part Number 1=161|Manufacturer Lifecycle 1=141|Supplier 1=71|Supplier Part Number 1=135|Supplier Unit Price 1=121|Supplier Subtotal 1=114
+Configuration4_Item8=Line #=52|Comment=135|Description=100|Designator=79|Manufacturer 1=97|Manufacturer Part Number 1=161|Manufacturer Lifecycle 1=141|Supplier 1=71|Supplier Part Number 1=135|Supplier Unit Price 1=121|Supplier Subtotal 1=114
 OutputType5=PDF3D
 OutputName5=PDF3D
 OutputCategory5=Documentation
-OutputDocumentPath5=Sync.PcbDoc
+OutputDocumentPath5=
 OutputVariantName5=
-OutputEnabled5=0
+OutputEnabled5=1
 OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=0
 OutputEnabled5_OutputMedium3=0
@@ -144,7 +144,7 @@ Configuration5_Item1=Record=ExportPDF3DSetting|Version=110|Format=0|Flags=8158|S
 OutputType6=Gerber
 OutputName6=Gerber Files
 OutputCategory6=Fabrication
-OutputDocumentPath6=Sync.PcbDoc
+OutputDocumentPath6=
 OutputVariantName6=
 OutputEnabled6=0
 OutputEnabled6_OutputMedium1=0
@@ -157,11 +157,11 @@ OutputEnabled6_OutputMedium7=0
 OutputEnabled6_OutputMedium8=0
 OutputDefault6=0
 Configuration6_Name1=OutputConfigurationParameter1
-Configuration6_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=UKTBXBJV|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set="Signal Layers","Electrical Layers","Component Layers"|LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|OutputFormat=Different|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16842751~1,16973830~1,16973831~1,16973834~1,16973835~1,16973832~1,16973833~1,16908292~1,16973837~1|PlotBoardProfile=False|PlotBoardProfileFileName= |PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|UncheckPlotDrillDrawingLayerPair0_Backdrill=False|UncheckPlotDrillDrawingLayerPair0_Checked=False|UncheckPlotDrillDrawingLayerPair0_DrillType=Regular|UncheckPlotDrillDrawingLayerPair0_FileName= |UncheckPlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair0_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair0_Backdrill=False|UncheckPlotDrillGuideLayerPair0_Checked=False|UncheckPlotDrillGuideLayerPair0_DrillType=Regular|UncheckPlotDrillGuideLayerPair0_FileName= |UncheckPlotDrillGuideLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair0_LowLayer=Top Layer|DocumentPath=C:\Users\Public\Documents\Altium\Xenon_flash\Xenon_flash_synchronizer\Sync.PcbDoc
+Configuration6_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=LLOJSKXS|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set="Signal Layers","Electrical Layers","Component Layers"|LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|OutputFormat=Different|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16842751~1,16973830~1,16973831~1,16973834~1,16973835~1,16973832~1,16973833~1,16908292~1,16973837~1|PlotBoardProfile=False|PlotBoardProfileFileName= |PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|UncheckPlotDrillDrawingLayerPair0_Backdrill=False|UncheckPlotDrillDrawingLayerPair0_Checked=False|UncheckPlotDrillDrawingLayerPair0_DrillType=Regular|UncheckPlotDrillDrawingLayerPair0_FileName= |UncheckPlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair0_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair0_Backdrill=False|UncheckPlotDrillGuideLayerPair0_Checked=False|UncheckPlotDrillGuideLayerPair0_DrillType=Regular|UncheckPlotDrillGuideLayerPair0_FileName= |UncheckPlotDrillGuideLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair0_LowLayer=Top Layer|DocumentPath=C:\Users\Public\Documents\Altium\Xenon_flash\vspyshka.PcbDoc
 OutputType7=NC Drill
 OutputName7=NC Drill Files
 OutputCategory7=Fabrication
-OutputDocumentPath7=Sync.PcbDoc
+OutputDocumentPath7=
 OutputVariantName7=
 OutputEnabled7=0
 OutputEnabled7_OutputMedium1=0
@@ -174,13 +174,13 @@ OutputEnabled7_OutputMedium7=0
 OutputEnabled7_OutputMedium8=0
 OutputDefault7=0
 Configuration7_Name1=OutputConfigurationParameter1
-Configuration7_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Users\Public\Documents\Altium\Xenon_flash\Xenon_flash_synchronizer\Sync.PcbDoc
+Configuration7_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Users\Public\Documents\Altium\Xenon_flash\vspyshka.PcbDoc
 OutputType8=ExportSTEP
 OutputName8=Export STEP
 OutputCategory8=Export
-OutputDocumentPath8=Sync.PcbDoc
+OutputDocumentPath8=
 OutputVariantName8=
-OutputEnabled8=1
+OutputEnabled8=0
 OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=0
 OutputEnabled8_OutputMedium3=0
@@ -195,9 +195,9 @@ Configuration8_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModels
 OutputType9=AutoCAD dwg/dxf PCB
 OutputName9=AutoCAD dwg/dxf File PCB
 OutputCategory9=Export
-OutputDocumentPath9=Sync.PcbDoc
+OutputDocumentPath9=
 OutputVariantName9=
-OutputEnabled9=1
+OutputEnabled9=0
 OutputEnabled9_OutputMedium1=0
 OutputEnabled9_OutputMedium2=0
 OutputEnabled9_OutputMedium3=0
@@ -212,9 +212,9 @@ Configuration9_Item1=Record=ExportDXFView|ACadVersion=60|UseRoundedTracks=True|C
 OutputType10=ExportPARASOLID
 OutputName10=Export PARASOLID
 OutputCategory10=Export
-OutputDocumentPath10=Sync.PcbDoc
+OutputDocumentPath10=
 OutputVariantName10=
-OutputEnabled10=1
+OutputEnabled10=0
 OutputEnabled10_OutputMedium1=0
 OutputEnabled10_OutputMedium2=0
 OutputEnabled10_OutputMedium3=0
@@ -349,7 +349,7 @@ OutputFileNameMulti6=
 UseOutputNameForMulti6=1
 OutputFileNameSpecial6=
 OpenOutput6=1
-OutputFilePath7=C:\Users\Public\Documents\Altium\Xenon_flash\Project Outputs for Xenon_flash\
+OutputFilePath7=C:\Users\s.karmanov\Documents\Altium\Eth_switch_1gbit\Project Outputs for Eth_switch_1gbit\
 ReleaseManaged7=1
 OutputBasePath7=Project Outputs for Xenon_flash_synchronizer
 OutputPathMedia7=
@@ -358,7 +358,7 @@ OutputPathOutputer7=[Output Custom]
 OutputPathOutputerPrefix7=
 OutputPathOutputerValue7=Документация
 OutputFileName7=
-OutputFileNameMulti7==Decimal_Number_Shematic+'-'+Version+'.'+VariantName+' ПЭ3'
+OutputFileNameMulti7==Decimal_Number_Shematic+'-'+Version+'.'+VariantName
 UseOutputNameForMulti7=0
 OutputFileNameSpecial7=
 OpenOutput7=1
@@ -395,7 +395,7 @@ OpenGerberOutput6=0
 OpenNCDrillOutput6=0
 OpenIPCOutput6=0
 EnableReload6=0
-RelativeOutputPath7=C:\Users\Public\Documents\Altium\Xenon_flash\Project Outputs for Xenon_flash\
+RelativeOutputPath7=C:\Users\s.karmanov\Documents\Altium\Eth_switch_1gbit\Project Outputs for Eth_switch_1gbit\
 OpenOutputs7=1
 AddToProject7=1
 TimestampFolder7=0
